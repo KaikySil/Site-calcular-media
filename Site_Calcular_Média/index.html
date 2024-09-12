@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sytle.css">
+    <script src="./js/javinha.js"></script>
+    <title>Média do Aluno</title>
+</head>
+<body>
+
+    <header>
+        <div class="cabecalho"><span>MÉDIAS</span></div>
+    </header>
+
+<br/>
+    
+    <div>
+        <span>Nome do Aluno:</span>
+        <input type="text" id="nome" class="nome-aluno"/>
+    </div>
+
+<br/>
+
+    <div class="notas">
+        <span>Nota 1 > </span>
+        <input type="text" id="n1"/>
+
+        <span>Nota 2 > </span>
+        <input type="text" id="n2"/>
+        
+        <span>Nota 3 > </span>
+        <input type="text" id="n3"/>
+<br/>
+        <span><b>Resultado: </b></span>
+        <input type="text" id="txtmedia" class="media" readonly>
+    </div>
+
+<br/><br/>
+
+    <div class="media">
+        <button onClick="media()"><b>Calcular</b></button>
+    </div>
+
+</body>
+</html>
